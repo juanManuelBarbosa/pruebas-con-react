@@ -1,16 +1,17 @@
-import React from 'react';
-import Contador from './components/Contador';
+import React  from 'react';
 
-function App(){
+import Formulario  from './components/Formulario'
+
+const App = ()=>{
+  return(
+    <div className ="container mt-5">
+      <Formulario/>
+
+     
+      
+    </div>
+  )
   
-  return (
-    <Contador/>
-    
-  );
 }
-
-
-
-
 
 export default App;
